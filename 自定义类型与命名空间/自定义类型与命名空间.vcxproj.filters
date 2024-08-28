@@ -18,5 +18,14 @@
     <ClCompile Include="1.结构类型的定义与使用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="2.结构类型的嵌套.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.结构的简洁名称.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.结构数组与结构指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
