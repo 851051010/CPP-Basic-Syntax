@@ -44,5 +44,4 @@ int myConvert(char* p)
 		n += p[i] - '0';
 	}
 	return n;
-
 }

@@ -15,7 +15,6 @@ int main()
 
 	// 函数指针fp指向myAdd函数
 	fp = myAdd;
-	
 	// 使用函数指针调用函数
 	cout << fp(1, 1) << endl; // 2
 
@@ -24,13 +23,11 @@ int main()
 
 	return 0;
 }
-
-int myAdd(int x, int y)
-{
+	int myAdd(int x, int y)
+	{
 	return x + y;
-}
-
-int mySub(int x, int y)
-{
+	}
+	int mySub(int x, int y)
+	{
 	return x - y;
-}
+	}

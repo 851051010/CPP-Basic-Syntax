@@ -13,6 +13,7 @@ void info(Student& stu);
 
 int main()
 {
+	// 定义结构类型数组
 	Student s[5] = {
 		{1,'m',16,90},
 		{2,'m',15,94},

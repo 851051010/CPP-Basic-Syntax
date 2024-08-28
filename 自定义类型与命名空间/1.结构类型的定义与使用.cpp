@@ -9,6 +9,7 @@ struct Student
 	int age;  // 年龄
 	float score; // 成绩 
 } stu3, stu4;   // 定义结构同时定义结构变量
+
 void info(Student& stu);
 
 int main()

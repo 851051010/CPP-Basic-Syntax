@@ -4,7 +4,8 @@ using namespace std;
 
 // 定义重载函数
 int myMax(int m, int n);
-float myMax(float m, float n);   // 函数的参数类型或者个数不一样的才算重载函数
+ // 函数的参数类型或者个数不一样的才算重载函数
+float myMax(float m, float n);  
 int myMax(int m, int n, int k);
 
 int main()
