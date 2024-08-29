@@ -1,6 +1,6 @@
 #include <iostream>
 
-//using namespace std;    使用命名空间中所有的标识符
+// using namespace std;    使用命名空间中所有的标识符
 using std::cout;    // 使用命名空间中指定的标识符
 using std::endl;
 
@@ -32,7 +32,7 @@ namespace ns2 = NS1::NS2;
 
 int main()
 {
-	//命名空间::成员，可以直接使用命名空间中的成员，不需要using声明命名空i
+	//命名空间::成员，可以直接使用命名空间中的成员，不需要using声明命名空间
 	cout << NS1::a << endl;  // 10
 	NS1::f1();   // NS1::f1()
 

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// 定义联合类型,没事不要用，容易出错
+// 定义联合类型,最好不要用，容易出错
 union MyData
 {
 	int i;
@@ -13,7 +13,8 @@ union MyData
 int main()
 {
 	// 联合类型占用的空间由成员中占用空间最大的类型决定
-	cout << "sizeof(MyData): " << sizeof(MyData) << endl;   // sizeof(MyData): 4
+	cout << "sizeof(MyData): " << sizeof(MyData) << endl;  
+	// sizeof(MyData): 4
 
 	// 定义联合变量
 	MyData md;

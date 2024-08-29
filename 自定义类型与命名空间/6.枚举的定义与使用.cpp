@@ -3,11 +3,13 @@
 using namespace std;
 
 // 定义枚举类型 ,其中weekday是说明文字， {} 里面的才是枚举类型
-// enum weekday{Sun, Mon, Tue, Wed, Thu, Fri, Sat};  // 0 1 2 3 4 5 6
+//enum weekday{Sun, Mon, Tue, Wed, Thu, Fri, Sat};  // 0 1 2 3 4 5 6
+
+
+//	枚举类型中的各元素不能重复:
+//	enum weekday{Sun, Mon, Tue, Wed, Thu, Fri, Sat, Sat}; // 不允许，Sat重复了。
 
 /*
-	枚举类型中的各元素不能重复:
-		enum weekday{Sun, Mon, Tue, Wed, Thu, Fri, Sat, Sat};  不允许，Sat重复了。
 	如果不指定枚举元素的起始值，将自动从 0 开始为各个元素设置初始值，后面的枚举元素依次增加 1。
 	如果指定某个枚举元素的值，而下一个枚举元素如果没有指定值，就是上一个枚举元素的值 +1。
 	一般枚举类型用的都是默认值。

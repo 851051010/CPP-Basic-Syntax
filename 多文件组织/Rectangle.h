@@ -1,6 +1,8 @@
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
 
+#define PI 3.1415926
+
 #include "Point.h"
 
 struct Rectangle
