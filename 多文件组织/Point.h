@@ -16,4 +16,7 @@ struct Point
 	int y;
 };
 
+//  计算两点之间的距离
+float getDistance(Point point1, Point point2);
+
 #endif
