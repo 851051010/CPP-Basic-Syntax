@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "函数", "函数\函数.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "自定义类型与命名空间", "自定义类型与命名空间\自定义类型与命名空间.vcxproj", "{F18BD0CA-30C3-4DFD-B2DE-F1EF630672C9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多文件组织", "多文件组织\多文件组织.vcxproj", "{8BDFCCEE-B47C-4B88-886F-3AB60DFF6B19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{F18BD0CA-30C3-4DFD-B2DE-F1EF630672C9}.Release|x64.Build.0 = Release|x64
 		{F18BD0CA-30C3-4DFD-B2DE-F1EF630672C9}.Release|x86.ActiveCfg = Release|Win32
 		{F18BD0CA-30C3-4DFD-B2DE-F1EF630672C9}.Release|x86.Build.0 = Release|Win32
+		{8BDFCCEE-B47C-4B88-886F-3AB60DFF6B19}.Debug|x64.ActiveCfg = Debug|x64
+		{8BDFCCEE-B47C-4B88-886F-3AB60DFF6B19}.Debug|x64.Build.0 = Debug|x64
+		{8BDFCCEE-B47C-4B88-886F-3AB60DFF6B19}.Debug|x86.ActiveCfg = Debug|Win32
+		{8BDFCCEE-B47C-4B88-886F-3AB60DFF6B19}.Debug|x86.Build.0 = Debug|Win32
+		{8BDFCCEE-B47C-4B88-886F-3AB60DFF6B19}.Release|x64.ActiveCfg = Release|x64
+		{8BDFCCEE-B47C-4B88-886F-3AB60DFF6B19}.Release|x64.Build.0 = Release|x64
+		{8BDFCCEE-B47C-4B88-886F-3AB60DFF6B19}.Release|x86.ActiveCfg = Release|Win32
+		{8BDFCCEE-B47C-4B88-886F-3AB60DFF6B19}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
